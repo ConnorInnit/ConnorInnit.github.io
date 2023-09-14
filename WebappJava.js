@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
     const searchBar = document.getElementById('search-bar');
     const result = document.getElementById('result');
@@ -38,5 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
             <p>IMDb: 8.5/10</p>
             <p>Rotten Tomatoes: 92%</p>
         `;
-        result.style.display = 'block';
-    });
+        result.style.display = 'block';}
+    }
+)
